@@ -82,3 +82,27 @@ nav {
 }
 
 
+@media (min-width: 600px)
+{
+    body {
+        background-color: #6bd3ed;
+    }
+
+    .caption {
+        display:block;
+    }
+    .card {
+        width: 40%;
+        display:inline-block;
+    }
+    .menu-icon{
+        display:none;
+    }
+    nav {
+        display:block;
+    }
+    .menu li {
+        display: inline-block
+    }
+
+}
